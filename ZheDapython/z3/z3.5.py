@@ -16,4 +16,6 @@ for j in range(len(strlist2)):
        strlist2[0]=0
 for k in range(len(strlist2)):
     print(int(strlist2[k]),end="")
-
+# 本题不难，但是两个测试点都考验了对于整数的理解
+# 整数首位非零
+# 但若只有一个零，也是不能删除的
