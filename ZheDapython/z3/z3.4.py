@@ -11,7 +11,7 @@ if ch not in strlist:
 else:
     print("index = {}".format(len(strlist)-strlist.index(ch)-1))
 
-# 待修正部分正确的方法二：
+# 待修正部分正确的方法二：当输入的要判断的字符不是第一个时，就会跳出not found
 # ch=input()
 # strch=input()
 # strlist=[str(n) for n in strch]
@@ -23,3 +23,4 @@ else:
 #     else:
 #         print("Not Found")
 #         break
+
