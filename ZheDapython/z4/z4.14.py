@@ -25,3 +25,4 @@ for i in s:
     else:
         oth+=1
 print("letter = {}, blank = {}, digit = {}, other = {}".format(alp,blank,dig,oth))
+# 本题重点在于回车的数量如何计算，count的数量就是回车的数量
