@@ -11,3 +11,4 @@ for a in range(m//5,0,-1):
                 print("fen5:{}, fen2:{}, fen1:{}, total:{}".format(a,b,c,(a+b+c)))
                 count=count+1
 print("count = {}".format(count))
+# 本题的数据量不是很大，可以用暴力破解
