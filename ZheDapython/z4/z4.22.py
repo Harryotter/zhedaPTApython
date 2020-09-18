@@ -15,14 +15,15 @@ for i in range(n):
     maxlist.append(max(mlist[i]))
 # #本处较难理解：(借鉴其他大佬的地方)
 # 循环遍历n阶矩阵的n列(获取列最小值)
-for i in range(n):
-    minlist.append(min([mlist[j][i] for j in range(n)]))
+for j in range(n):
+    minlist.append(min([mlist[i][j] for i in range(n)]))
 for i in range(n):
     for j in range(n):
         if maxlist[i]==minlist[j] and maxlist[i]==mlist[i][j]:
             print(i,j)
             exit()    # 表示当满足if后，就执行退出
 print("NONE")  # 此处不能写在if条件分支下，否则每条不符合if的语句都会打印出none
+# 本题最大的收获就是将数组化成求列表的每行每列的最大值最小值
 
 
 
