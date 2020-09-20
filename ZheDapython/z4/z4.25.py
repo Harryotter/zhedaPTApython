@@ -10,3 +10,4 @@ for i in range(n):
         count+=1
     if j+i==n-1:
         print("")
+# 本题的思路和九九乘法表的思路类似,列的变化跟据行的变化来走
